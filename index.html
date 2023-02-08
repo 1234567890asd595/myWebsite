@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU"
+      type="image/x-icon"
+    />
+    <meta name="description" content="a website" />
+    <meta name="keywords" content="∞☻π" />
+    <style>
+      h1 {
+        color: brown;
+        border-radius: 50px;
+      }
+      .a_button {
+        color: black;
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .clickme {
+        background-color: cadetblue;
+        height: 45px;
+        width: 90px;
+        border-radius: 5px;
+        font-family: "Courier New", Courier, monospace;
+        font-size: small;
+      }
+      .download_me {
+        background-color: rgb(10, 153, 93);
+        height: 75px;
+        width: 75px;
+        border-radius: 5px;
+        font-family: "Courier New", Courier, monospace;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1" id="h1">Hello world</h1>
+    <button onclick="btn_func()" class="a_button">a button</button>
+    <button onclick="clickme()" class="clickme">click me!</button>
+    <a href="index.html" download
+      ><button class="download_me">download me!</button></a
+    >
+    <button
+      onclick="colorfunc()"
+      style="background-color: blue; border-radius: 5px"
+      id="to"
+    >
+      click me to!☺☻♥♦♣♠
+    </button>
+    <script>
+      console.clear();
+      console.log(
+        "thank you for looking a the console but there is nothing here☺"
+      );
+      function btn_func() {
+        let input = prompt("what is not your name?\n\n\n\n\n\n\n");
+        alert("hello not " + input);
+      }
+      function clickme() {
+        window.open("index.html");
+        window.open("index.html");
+        window.open("index.html");
+        window.open("index.html");
+        window.open("index.html");
+        window.open("index.html");
+        window.open("index.html");
+        window.open("index.html");
+      }
+      function colorfunc() {
+        var current_color = document.getElementById("to").style.backgroundColor;
+        if (current_color == "blue") {
+          document.getElementById("to").style.backgroundColor = "green";
+        } else if (current_color == "green") {
+          document.getElementById("to").style.backgroundColor = "yellow";
+        } else if (current_color == "yellow") {
+          document.getElementById("to").style.backgroundColor = "orange";
+        } else if (current_color == "orange") {
+          document.getElementById("to").style.backgroundColor = "cyan";
+        } else if (current_color == "cyan") {
+          document.getElementById("to").style.backgroundColor = "purple";
+        } else if (current_color == "purple") {
+          document.getElementById("to").style.backgroundColor = "pink";
+        } else if (current_color == "pink") {
+          document.getElementById("to").style.backgroundColor = "red";
+        } else if (current_color == "red") {
+          document.getElementById("to").style.backgroundColor = "blue";
+        }
+      }
+    </script>
+  </body>
+</html>
